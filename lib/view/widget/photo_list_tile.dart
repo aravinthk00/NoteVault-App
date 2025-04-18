@@ -6,11 +6,11 @@ import 'package:readmore/readmore.dart';
 import '../../model/photos.dart';
 import '../../utils/util.dart';
 
-class BookTileWidget extends StatelessWidget {
+class PhotoTileWidget extends StatelessWidget {
   final Photos myPhoto;
   final int index;
 
-  const BookTileWidget({super.key, required this.myPhoto, required this.index});
+  const PhotoTileWidget({super.key, required this.myPhoto, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -96,7 +96,7 @@ class BookTileWidget extends StatelessWidget {
                                   color:  Colors.orange),
                               onPressed: () => {
                                 vm.toggleFavourite(myPhoto),
-                                Utils.toastMessage(vm.isFavourite(myPhoto) ?"Book added to my favourites." : "Book removed from my favourites.")},
+                                Utils.toastMessage(vm.isFavourite(myPhoto) ?"Photo added to my favourites." : "Photo removed from my favourites.")},
                             )
                           ],
                         ),

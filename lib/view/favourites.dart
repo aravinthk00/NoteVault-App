@@ -31,7 +31,7 @@ class FavouritesScreen extends StatelessWidget {
         itemCount: vm.favourites.length,
         itemBuilder: (context, index) {
           final photo = vm.favourites[index];
-          return BookTileWidget(myPhoto: photo, index: index);
+          return PhotoTileWidget(myPhoto: photo, index: index);
         },
       )
       : SingleChildScrollView(

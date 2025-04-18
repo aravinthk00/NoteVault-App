@@ -135,7 +135,7 @@ class _PhotosListScreenState extends State<PhotosListScreen> {
                             itemBuilder: (context, index) {
                               if (index < provider.myPhotosList.length) {
                                 final photo = provider.myPhotosList[index];
-                                return BookTileWidget(
+                                return PhotoTileWidget(
                                   myPhoto: photo,
                                   index: index,
                                 );
