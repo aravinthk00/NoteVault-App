@@ -1,7 +1,5 @@
 # 🗂️ NoteVault - Your Personal Notes App
 
-![NoteVault Banner](assets/banner.png)
-
 **NoteVault** is a simple Flutter-based app that allows users to:
 - ✍️ Create and save notes
 - 🗃️ View notes in a list format
